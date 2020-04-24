@@ -1,0 +1,499 @@
+
+
+/*========================================================[ DEMO PAGE RESPONSIVE START]============================*/
+@media (max-width: 575px) {
+    /*================================
+          NAVBAR MENU PART STRAT
+    ==================================*/
+    .navbar{
+        padding: 8px 15px !important;
+    }
+    .navbar a img{
+        width: 130px;
+        height: auto;
+    }
+    .navbar button i{
+        color: #ff7f00;
+    }
+    .navbar button:focus{
+        outline: 0px !important;
+    }
+    .navbar ul li a::after{
+        display: none;
+    }
+    .navbar ul li a{
+        color: #fff;
+        font-size: 14px;
+    }
+    .navbar-collapse{
+        text-align: center;
+        background: #ff7f00;
+        padding: 20px 0px;
+    }
+    .menu_pur_btn a{
+        border: 1px solid #283c50;
+        margin-top: 15px;
+        font-size: 18px;
+        padding: 10px 20px;
+    }
+    /*================================
+          NAVBAR MENU PART END
+    ==================================*/ 
+    
+    
+    /*================================
+             BANNER PART START
+    ==================================*/
+    .demo_banner_text{
+        text-align: center;
+    }
+    .demo_banner_text h1{
+        font-size: 32px;
+        line-height: 35px;
+        width: 290px;
+        margin: 30px auto 25px;
+    }
+    .demo_banner_pic ul{
+        left: 50%;
+        top: 240px;
+        transform: translateX(-50%);
+        width: 235px;
+    }
+    .demo_banner_pic ul li{
+        display: inline-block;
+        margin: 0px 3px;
+    }
+    .demo_banner_pic ul li button{
+        font-size: 12px;
+        width: 20px;
+        height: 20px;
+        line-height: 20px;
+        background: #283c50;
+        color: #fff;
+    }
+    /*================================
+             BANNER PART END
+    ==================================*/
+    
+    
+    /*================================
+            DEMO ITEM PART START
+    ==================================*/
+    #demo_item{
+        padding: 25px 0px 0px;
+    }
+    .demo_item_heading h2{
+        font-size: 150px;
+        line-height: 160px;
+    }
+    .demo_item_title h3{
+        font-size: 32px;
+    }
+    .demo_page_heading h4{
+        line-height: 65px;
+        font-size: 85px
+    }
+    .demo_page_respons{
+        margin-bottom: 30px;
+    }
+    /*================================
+             DEMO ITEM PART END
+    ==================================*/
+    
+    
+    /*================================
+          DEMO DETAILS PART START
+    ==================================*/
+    #demo_details{
+        padding: 60px 0px;
+    }
+    .demo_details_respons{
+        margin-bottom: 30px;
+    }
+    .demo_details_div img{
+        width: 60px;
+        height: 60px;
+    }
+    .demo_details_div h3{
+        font-size: 24px;
+    }
+    /*================================
+           DEMO DETAILS PART END
+    ==================================*/
+    
+    
+    /*================================
+          DEMO SUPPORT PART START
+    ==================================*/
+    #demo_support{
+        padding: 25px 5px 35px;
+    }
+    .demo_support_heading h2{
+        font-size: 32px;
+    }
+    .demo_support_heading p{
+        font-size: 14px;
+        width: 100%;
+    }
+    .demo_support_heading a{
+        font-size: 18px;
+        padding: 10px 20px;
+    }
+    /*================================
+           DEMO SUPPORT PART END
+    ==================================*/
+    
+    
+    /*================================
+           OTHER THEME PART START
+    ==================================*/
+    #other_theme{
+        padding: 40px 0px 25px;
+    }
+    .demo_theme_heading h2{
+        font-size: 32px;
+    }
+    .demo_theme_heading p{
+        font-size: 14px;
+        margin-bottom: 25px;
+    }
+    .demo_theme_div{
+        margin: 0px 0px;
+    }
+    /*================================
+           OTHER THEM PART END
+    ==================================*/
+    
+    
+    /*=========================================
+    PRELOADER AND BACK TO TOP BUTTON PART START
+    ==========================================*/
+    .top_btn i{
+        font-size: 22px;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+    }
+    .preloader_content{
+        width: 200PX;
+        height: 200px;
+    }
+    .preloader h1{
+        font-size: 100px;
+        line-height: 200px;
+    }
+    /*=========================================
+     PRELOADER AND BACK TO TOP BUTTON PART END
+    ==========================================*/
+}
+
+
+
+
+
+@media (min-width:576px) and (max-width: 767px) {
+    /*================================
+          NAVBAR MENU PART STRAT
+    ==================================*/
+    .navbar{
+        padding: 8px 15px !important;
+    }
+    .navbar a img{
+        width: 150px;
+        height: auto;
+    }
+    .navbar button i{
+        color: #ff7f00;
+    }
+    .navbar button:focus{
+        outline: 0px !important;
+    }
+    .navbar ul li a::after{
+        display: none;
+    }
+    .navbar ul li a{
+        color: #fff;
+        font-size: 14px;
+    }
+    .navbar-collapse{
+        text-align: center;
+        background: #ff7f00;
+        padding: 20px 0px;
+    }
+    .menu_pur_btn a{
+        border: 1px solid #283c50;
+        margin-top: 15px;
+        font-size: 18px;
+        padding: 10px 20px;
+    }
+    /*================================
+          NAVBAR MENU PART END
+    ==================================*/ 
+    
+    
+    /*================================
+             BANNER PART START
+    ==================================*/
+    .demo_banner_overlay{
+        height: 450px;
+    }
+    .demo_banner_text{
+        text-align: center;
+    }
+    .demo_banner_text h1{
+        font-size: 42px;
+        line-height: 45px;
+        margin-top: 30px;
+        margin-bottom: 25px;
+    }
+    .demo_banner_pic ul{
+        left: 50%;
+        top: 270px;
+        transform: translateX(-50%);
+        width: 235px;
+    }
+    .demo_banner_pic ul li{
+        display: inline-block;
+        margin: 0px 3px;
+    }
+    .demo_banner_pic ul li button{
+        font-size: 12px;
+        width: 20px;
+        height: 20px;
+        line-height: 20px;
+        background: #283c50;
+        color: #fff;
+    }
+    /*================================
+             BANNER PART END
+    ==================================*/
+    
+    
+    /*================================
+            DEMO ITEM PART START
+    ==================================*/
+    #demo_item{
+        padding: 25px 0px 0px;
+    }
+    .demo_item_heading h2{
+        font-size: 150px;
+        line-height: 160px;
+    }
+    .demo_item_title h3{
+        font-size: 32px;
+    }
+    .demo_page_heading h4{
+        line-height: 65px;
+        font-size: 85px
+    }
+    .demo_page_respons{
+        margin-bottom: 30px;
+    }
+    /*================================
+             DEMO ITEM PART END
+    ==================================*/
+    
+    
+    /*================================
+          DEMO DETAILS PART START
+    ==================================*/
+    #demo_details{
+        padding: 60px 0px;
+    }
+    .demo_details_respons{
+        margin-bottom: 30px;
+    }
+    .demo_details_div img{
+        width: 60px;
+        height: 60px;
+    }
+    .demo_details_div h3{
+        font-size: 24px;
+    }
+    /*================================
+           DEMO DETAILS PART END
+    ==================================*/
+    
+    
+    /*================================
+          DEMO SUPPORT PART START
+    ==================================*/
+    #demo_support{
+        padding: 25px 5px 35px;
+    }
+    .demo_support_heading h2{
+        font-size: 32px;
+    }
+    .demo_support_heading p{
+        font-size: 14px;
+        width: 100%;
+    }
+    .demo_support_heading a{
+        font-size: 18px;
+        padding: 10px 20px;
+    }
+    /*================================
+           DEMO SUPPORT PART END
+    ==================================*/
+    
+    
+    /*================================
+           OTHER THEME PART START
+    ==================================*/
+    #other_theme{
+        padding: 40px 0px 25px;
+    }
+    .demo_theme_heading h2{
+        font-size: 32px;
+    }
+    .demo_theme_heading p{
+        font-size: 14px;
+        margin-bottom: 25px;
+    }
+    .demo_theme_div{
+        margin: 0px 0px;
+    }
+    /*================================
+           OTHER THEM PART END
+    ==================================*/
+    
+    
+    /*=========================================
+    PRELOADER AND BACK TO TOP BUTTON PART START
+    ==========================================*/
+    .top_btn i{
+        font-size: 22px;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+    }
+    .preloader_content{
+        width: 200PX;
+        height: 200px;
+    }
+    .preloader h1{
+        font-size: 100px;
+        line-height: 200px;
+    }
+    /*=========================================
+     PRELOADER AND BACK TO TOP BUTTON PART END
+    ==========================================*/
+}
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    
+    /*================================
+          NAVBAR MENU PART STRAT
+    ==================================*/
+    .navbar{
+        padding: 8px 15px !important;
+    }
+    .navbar button i{
+        color: #ff7f00;
+    }
+    .navbar button:focus{
+        outline: 0px !important;
+    }
+    .navbar ul li a::after{
+        display: none;
+    }
+    .navbar ul li a{
+        color: #fff;
+        font-size: 16px;
+    }
+    .navbar-collapse{
+        background: #ff7f00;
+        text-align: center;
+        padding: 20px 0px;
+    }
+    .menu_pur_btn a{
+        border: 1px solid #283c50;
+        margin-top: 15px;
+        
+    }
+    /*================================
+          NAVBAR MENU PART END
+    ==================================*/ 
+    
+    
+   /*================================
+          DEMO BANNER PART START
+    ==================================*/ 
+    .demo_banner_text h1{
+        font-size: 50px;
+        line-height: 55px;
+        margin-top: 90px;
+    }
+    .demo_page_respons{
+        margin-bottom: 30px;
+    }
+   /*================================
+          DEMO BANNER PART END
+    ==================================*/ 
+    
+    /*================================
+          DEMO DETAILS PART START
+    ==================================*/
+    #demo_details{
+        padding: 60px 0px;
+    }
+    .demo_details_respons{
+        margin-bottom: 0px;
+    }
+    .demo_details_div img{
+        width: 60px;
+        height: 60px;
+    }
+    .demo_details_div h3{
+        font-size: 24px;
+    }
+    /*================================
+           DEMO DETAILS PART END
+    ==================================*/
+    
+    
+    /*=========================================
+    PRELOADER AND BACK TO TOP BUTTON PART START
+    ==========================================*/
+    .preloader_content{
+        width: 200PX;
+        height: 200px;
+    }
+    .preloader h1{
+        font-size: 100px;
+        line-height: 200px;
+    }
+    /*=========================================
+     PRELOADER AND BACK TO TOP BUTTON PART END
+    ==========================================*/
+}
+
+
+
+
+@media (min-width: 992px) and (max-width:1199px) {
+    
+    /*================================
+          DEMO BANNER PART START
+    ==================================*/ 
+    .demo_banner_text h1{
+        font-size: 50px;
+        line-height: 55px;
+        margin-top: 118px;
+    }
+    /*================================
+          DEMO BANNER PART END
+    ==================================*/ 
+}
+/*==========================================================[ DEMO PAGE RESPONSIVE END]============================*/
+
+
+
+
+
+
+

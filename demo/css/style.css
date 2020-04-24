@@ -1,0 +1,717 @@
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Aclonica&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul,ol{
+    list-style: none;
+    display: inline-block;
+}
+
+img{
+    vertical-align: middle;
+}
+
+ul,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p{
+    margin: 0;
+    padding: 0;
+}
+
+button:focus{
+    outline: none !important;
+}
+
+html,body{
+    scroll-behavior: smooth;
+}
+/*================================================
+                 COMMON CSS END
+=================================================*/
+
+
+
+/*================================================
+                PRELOADER PART START
+=================================================*/
+.preloader{
+    width: 100%;
+    height: 100vh;
+    background: #ff7f00;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+
+.preloader_content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    border-radius: 50%;
+    background: #fff;
+}
+
+.preloader h1{
+    line-height: 300px;
+    font-size: 200px;
+    font-family: 'Aclonica', sans-serif;
+    background: linear-gradient(to bottom, #fc4a1a 0%, #f7b733 100%);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+
+.load_finish{
+    display: none;
+}
+/*================================================
+                PRELOADER PART END
+=================================================*/
+
+
+
+/*==========================================
+        BACK TO TOP BUTTON PART START
+===========================================*/
+.top_btn i{
+    color: #fff;
+    font-size: 30px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    border-radius: 50%;
+    background: linear-gradient(to top, #ff7f00 0%, #ffb338 100%);
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    display: none;
+    z-index: 1;
+    text-shadow: 0px 3px 0px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 10px 30px 1px rgba(255, 127, 0, 0.5);
+    animation: hasan 2s linear infinite;
+}
+
+@keyframes hasan{
+    20%{
+        margin-top: 10px;
+    }
+    30%{
+        margin-bottom: 30px;
+    }
+    60%{
+        margin-bottom: 0px;
+    }
+    100%{
+        margin-top: 0px;
+    }
+}
+/*==========================================
+        BACK TO TOP BUTTON PART END
+===========================================*/
+
+
+
+/*================================================
+                 MENU PART START
+=================================================*/
+.navbar{
+    padding: 15px 0px !important;
+    border-top: 2px solid #ff7f00;
+}
+
+.menu_fixed{
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    z-index: 999;
+    box-shadow: 0 5px 15px rgba(0,0,0,.1);
+}
+
+.navbar a img{
+    width: 180px;
+    height: 60px;
+}
+
+.navbar ul li a{
+    color: #283c50;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+    margin: 0px 8px;
+    position: relative;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.navbar ul li a:after{
+    position: absolute;
+    content: "";
+    top: 3px;
+    left: -15px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    z-index: -1;
+    background: linear-gradient(to top, #ff7f00 0%, #ffb338 100%);
+    visibility: hidden;
+    opacity: 0;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+}
+
+.navbar ul li a:hover:after{
+    visibility: visible;
+    opacity: 1;
+    left: 0px
+}
+
+.navbar ul li.active a:after{
+    visibility: visible;
+    opacity: 1;
+    left: 0px
+}
+
+.menu_pur_btn a{
+    display: inline-block;
+    color: #283c50;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+    padding: 12px 25px;
+    border-radius: 30px;
+    border: 1px solid #ff7f00;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+}
+
+.menu_pur_btn a:hover{
+    color: #fff;
+    background: #ff7f00;
+    text-decoration: none;
+}
+/*================================================
+                 MENU PART END
+=================================================*/
+
+
+
+/*=================================================
+             DEMO BANNER PART START
+==================================================*/
+
+#demo_banner{
+    background: url(../images/demo/demo_banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.demo_banner_overlay{
+    background: rgba(255, 127, 0, 0.9);
+    height: 400px;
+}
+
+.demo_banner_text h1{
+    color: #fff;
+    font-size: 60px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+    line-height: 65px;
+    margin-top: 100px;
+}
+
+.demo_banner_pic img{
+    width: 100%;
+    height: auto;
+    border-radius: 35px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.demo_banner_pic ul{
+    position: absolute;
+    top: 33px;
+    left: -40px;
+}
+
+.demo_banner_pic ul li{
+    margin: 10px 0px;
+}
+
+.demo_banner_pic ul li button{
+    color: #283c50;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+}
+
+.demo_banner_pic ul li.slick-active button{
+    color: #fff;
+    background: #ff7f00;
+    background: linear-gradient(to top, #fc4a1a 0%, #f7b733 100%);
+}
+/*=================================================
+             DEMO BANNER PART END
+==================================================*/
+
+
+
+/*=================================================
+               DEMO ITEM PART START
+==================================================*/
+#demo_item{
+    background: #fff;
+    padding: 60px 0px 0px;
+}
+
+.demo_item_heading{
+    text-align: center;
+    position: relative;
+}
+
+.demo_item_heading h2{
+    color: #eee;
+    font-size: 180px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: -5px;
+    line-height: 180px;
+    margin-bottom: 0px;
+}
+
+.demo_item_title{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 315px;
+}
+
+.demo_item_title h3{
+    color: #283c50;
+    font-size: 42px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+}
+
+.demo_page_heading{
+    text-align: center;
+    position: relative;
+}
+
+.demo_page_heading h4{
+    color: #eee;
+    font-size: 100px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: -5px;
+    margin-bottom: 0px;
+    line-height: 75px;
+}
+
+.demo_page_title{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 235px;
+}
+
+.demo_page_title h5{
+    color: #283c50;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+}
+
+.demo_page{
+    width: 100%;
+    height: 450px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.2);
+}
+
+.demo_page img{
+    width: 100%;
+    height: auto;
+}
+
+.demo_page_overlay{
+    position: absolute;
+    top: -450px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 127, 0, 0.6);
+    border-radius: 5px;
+    visibility: hidden;
+    opacity: 0;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+}
+
+.demo_page:hover .demo_page_overlay{
+    visibility: visible;
+    opacity: 1;
+    top: 0px;
+}
+
+.demo_page_overlay a i{
+    display: inline-block;
+    color: #fff;
+    font-size: 18px;
+    width: 60px;
+    height: 60px;
+    line-height: 55px;
+    text-align: center;
+    border-radius: 50%;
+    background: #283c50;
+    border: 2px solid #ff7f00;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+}
+
+.demo_page_overlay a i:hover{
+    color: #fff;
+    background: #ff7f00;
+}
+
+.demo_page_ghape{
+    margin-bottom: 30px;
+}
+/*=================================================
+                DEMO ITEM PART END
+==================================================*/
+
+
+
+/*=================================================
+                DEMO DETAILS PART START
+==================================================*/
+#demo_details{
+    background: #fff;
+    padding: 100px 0px;
+}
+
+.demo_details_div {
+    text-align: center;
+    width: 100%;
+    padding: 35px 0px 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.demo_details_div img{
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.demo_details_div h3{
+    color: #283c50;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+}
+
+.demo_details_ghape{
+    margin-bottom: 30px;
+}
+/*=================================================
+                DEMO DETAILS PART END
+==================================================*/
+
+
+
+/*=================================================
+               DEMO SUPPORT PART START
+==================================================*/
+#demo_support{
+    background: #fafafa;
+    padding: 50px 0px 60px;
+}
+
+.demo_support_heading{
+    text-align: center;
+}
+
+.demo_support_heading h2{
+    color: #283c50;
+    font-size: 42px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+}
+
+.demo_support_heading p{
+    color: #555;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    width: 660px;
+    margin: 0 auto 30px;
+}
+
+.demo_support_heading a{
+    display: inline-block;
+    color: #283c50;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+    padding: 12px 25px;
+    border-radius: 30px;
+    border: 1px solid #ff7f00;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+}
+
+.demo_support_heading a:hover{
+    color: #fff;
+    background: #ff7f00;
+    text-decoration: none;
+}
+/*=================================================
+               DEMO SUPPORT PART END
+==================================================*/
+
+
+
+/*=================================================
+                DEMO THEME PART START
+==================================================*/
+#other_theme{
+    background: #fff;
+    padding: 70px 0px 55px;
+}
+
+.demo_theme_heading{
+    text-align: center;
+}
+
+.demo_theme_heading h2{
+    color: #283c50;
+    font-size: 42px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+    margin-bottom: 0px !important;
+}
+
+.demo_theme_heading p{
+    color: #bbb;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+    margin-bottom: 50px;
+}
+
+.demo_theme_div{
+    position: relative;
+    margin: 0px 15px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.demo_theme_div img{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.demo_theme_overlay{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 0%;
+    height: 100%;
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.7);
+    visibility: hidden;
+    opacity: 0;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+}
+
+.demo_theme_div:hover .demo_theme_overlay{
+    visibility: visible;
+    opacity: 1;
+    width: 100%;
+}
+
+.demo_theme_link h4{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+}
+
+.demo_theme_link a i{
+    color: #fff;
+    font-size: 16px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    background: #ff7f00;
+}
+
+.demo_theme_link{
+    width: 180px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.demo_theme_main ul li button{
+    display: none;
+}
+
+.dandik{
+    position: absolute;
+    top: 50%;
+    right: -60px;
+    transform: translateY(-50%);
+    font-size: 16px;
+    color: #555;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    cursor: pointer;
+    z-index: 1;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+}
+
+.bamdik{
+    position: absolute;
+    top: 50%;
+    left: -60px;
+    transform: translateY(-50%);
+    font-size: 16px;
+    color: #555;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    cursor: pointer;
+    z-index: 1;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+}
+
+.dandik:hover,
+.bamdik:hover{
+    color: #fff;
+    background: rgba(255, 127, 0, 0.9);
+}
+/*=================================================
+                DEMO THEME PART END
+==================================================*/
+
+
+
+/*=================================================
+                DEMO FOOTER PART START
+==================================================*/
+#demo_footer{
+    background: #030f26;
+    padding: 20px 0px;
+}
+
+#demo_footer p{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin-bottom: 0px !important;
+}
+
+#demo_footer p span{
+    color: #ff7f00;
+    text-transform: capitalize;
+}
+/*=================================================
+                DEMO FOOTER PART END
+==================================================*/

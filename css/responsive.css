@@ -1,0 +1,2474 @@
+@media (max-width: 575px){
+    
+    /*=========================================
+                MENU PART START
+    ==========================================*/
+    .navbar{
+        padding: 8px 15px !important;
+    }
+    .navbar a img{
+        width: 130px;
+        height: auto;
+    }
+    .navbar button i{
+        color: #ff7f00;
+    }
+    .navbar button:focus{
+        outline: 0px !important;
+    }
+    .navbar-collapse{
+        text-align: center;
+        background: #ff7f00;
+    }
+    .navbar ul li a::after{
+        display: none;
+    }
+    .navbar ul{
+        padding: 15px 0px;
+    }
+    .navbar ul li a{
+        color: #fff;
+        font-size: 14px;
+    }
+   /*=========================================
+                MENU PART START
+    ==========================================*/
+    
+    
+    /*=========================================
+                 BANNER PART START
+    ==========================================*/
+    .banner_text{
+        text-align: center;
+    }
+    .banner_text h1{
+        font-size: 38px;
+        text-align: center;
+        line-height: 45px;
+        padding-top: 30px;
+    }
+    .banner_img img{
+        display: none;
+    }
+    .banner_text p{
+        font-size: 13px;
+        text-align: center;
+        width: 100%;
+    }
+    .banner_contact_btn{
+        text-align: center;
+        font-size: 14px;
+        padding: 12px 25px;
+        margin-top: 20px;
+        margin-bottom: 70px;
+    }
+    .banner_video_btn{
+        width: 45px;
+        height: 45px;
+        line-height: 45px;
+        font-size: 14px;
+    }
+    .banner_text_btn{
+        display: none;
+    }
+    .dandik,
+    .bamdik{
+        display: none !important;
+    }
+    .banner3_heading{
+        padding-top: 30px !important;
+    }
+    #banner_part ul{
+        bottom: 20px;
+    }
+    /*=========================================
+                 BANNER PART END
+    ==========================================*/
+    
+    
+    /*=========================================
+                 PARTNER PART START
+    ==========================================*/
+    .partner img{
+        width: 120px !important;
+        height: auto;
+    }
+    /*=========================================
+                 PARTNER PART END
+    ==========================================*/
+    
+    
+    /*=========================================
+                 ABOUT PART START
+    ==========================================*/
+    #about_part{
+        padding-top: 35px;
+    }
+    .about_heading h3{
+        font-size: 24px;
+        margin-bottom: 25px;
+    }
+    .about_heading h3:after{
+        width: 50px;
+    }
+    .about_heading p{
+        display: none;
+    }
+    .about_text{
+        text-align: center;
+        padding-left: 0px;
+    }
+    .about_text ul{
+        width: 100%;
+    }
+    .about_text h3{
+        font-size: 18px;
+        margin-top: 25px;
+        text-align: center;
+    }
+    .about_text p{
+        font-size: 13px;
+    }
+    .about_2nd_p{
+        display: none;
+    }
+    .about_text ul li{
+        margin-right: 15px;
+        float: none;
+        display: inherit;
+    }
+    .about_text ul li a.about_btn{
+        margin-right: 25px;
+        padding-left: 15px;
+    }
+    .about_text ul li a i{
+        font-size: 14px;
+    }
+    .about_1st_p{
+        margin-bottom: 15px;
+    }
+    .about_2nd_part{
+        margin-top: 15px;
+    }
+    .about2_content{
+        text-align: center;
+    }
+    .about2_text1 h3:after,
+    .about2_text2 h3:after{
+        display: none;
+    }
+    .about2_img{
+        display: none;
+    }
+    .about2_text1 p,
+    .about2_text2 p{
+        font-size: 13px;
+    }
+    .about2_content a{
+        font-size: 14px;
+        padding: 12px 25px;
+        margin-top: 15px;
+    }
+    .about2_text1 h3{
+        font-size: 20px;
+    }
+    .about2_text2 h3{
+        font-size: 20px;
+    }
+    /*=========================================
+                 ABOUT PART END
+    ==========================================*/
+    
+    
+    /*=========================================
+                 SERVICE PART START
+    ==========================================*/
+    #service_part{
+        padding-top: 70px;
+    }
+    .service_heading h3{
+        font-size: 24px;
+        margin-bottom: 25px;
+    }
+    .service_heading h3::after{
+        width: 50px;
+    }
+    .service_heading p{
+        display: none;
+    }
+    .service_text{
+        margin-bottom: 30px;
+    }
+    .service_text h3{
+        font-size: 18px;
+    }
+    .service_text p{
+        font-size: 13px;
+        margin-bottom: 15px;
+    }
+    .service_text i{
+        font-size: 18px;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+    }
+    .service_1st_part{
+        margin-bottom: 0px;
+    }
+    .extra_service_web{
+        display: none;
+    }
+    /*=========================================
+                 SERVICE PART END
+    ==========================================*/
+    
+    
+    /*=========================================
+               PROTFOLIO PART START
+    ==========================================*/
+    #protfolio_part{
+        padding-top: 35px;
+    }
+    .prot_heading h2{
+        font-size: 24px;
+        margin-bottom: 25px;
+    }
+    .prot_heading h2:after{
+        width: 50px;
+    }
+    .prot_heading p{
+        display: none;
+    }
+    .prot_img h4{
+        font-size: 14px;
+        width: 160px;
+        height: 35px;
+        line-height: 35px;
+    }
+    .prot_box{
+        margin-bottom: 30px;
+    }
+    .prot_overlay p{
+        font-size: 13px;
+    }
+    .prot_1st_part{
+        margin-bottom: 0px;
+    }
+    .extra_prot_web{
+        display: none;
+    }
+    /*=========================================
+               PROTFOLIO PART END
+    ==========================================*/
+    
+    
+    /*=========================================
+               PRICE PART START
+    ==========================================*/
+    #price_part{
+        padding-top: 40px;
+    }
+    .price_heading h2{
+        font-size: 24px;
+        margin-bottom: 25px;
+    }
+    .price_heading h2:after{
+        width: 50px;
+    }
+    .price_heading p{
+        display: none;
+    }
+    .price i{
+        font-size: 24px;
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+    }
+    .price h3{
+        font-size: 18px;
+    }
+    .price .price_rate{
+        font-size: 32px;
+    }
+    .price .price_time{
+        font-size: 14px;
+    }
+    .price ul li{
+        font-size: 14px;
+    }
+    .price a{
+        font-size: 14px;
+        width: 160px;
+        padding: 12px 0px;
+    }
+    .price{
+        margin-bottom: 30px;
+    }
+    /*=========================================
+               PRICE PART END
+    ==========================================*/
+    
+    
+    /*=========================================
+                BLOG PART START
+    ==========================================*/
+    #blog_part{
+        padding-top: 35px;
+    }
+    .blog_heading h2{
+        font-size: 24px;
+        margin-bottom: 25px;
+    }
+    .blog_heading h2:after{
+        width: 50px;
+    }
+    .blog_heading p{
+        display: none;
+    }
+    .blog{
+        margin: 0px 5px 0px;
+    }
+    .blog_text h5{
+        font-size: 18px;
+    }
+    .blog_text p{
+        font-size: 13px;
+    }
+    .blog_text{
+        text-align: center;
+    }
+    .blog_text a i{
+        display: none;
+    }
+    .blog_admin p{
+        font-size: 11px;
+    }
+    .blog_admin i{
+        font-size: 12px;
+    }
+    .blog_slider ul{
+        bottom: -45px;
+    }
+    .blog_parent{
+        text-align: center;
+        padding-right: 48px;
+    }
+    /*=========================================
+                BLOG PART END
+    ==========================================*/
+    
+    
+    /*=========================================
+                MEMBER PART START
+    ==========================================*/
+    .team_heading h2{
+        font-size: 24px;
+        margin-bottom: 25px;
+    }
+    .team_heading h2:after{
+        width: 50px;
+    }
+    .team_heading p{
+        display: none;
+    }
+    .team{
+        margin: 0px 6px;
+    }
+    /*=========================================
+                MEMBER PART END
+    ==========================================*/
+    
+    
+    /*=========================================
+                TESTIMONIAL PART START
+    ==========================================*/
+    #testi_part{
+        padding-top: 50px;
+    }
+    .testi_heading h2{
+        font-size: 24px;
+        margin-bottom: 25px;
+    }
+    .testi_heading h2:after{
+        width: 50px;
+    }
+    .testi_heading p{
+        display: none;
+    }
+    .testi_left h3{
+        font-size: 18px;
+        margin-top: 35px;
+        margin-bottom: 5px;
+    }
+    .testi_left #qoute_left{
+        font-size: 40px;
+        top: -42px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .testi_left{
+        text-align: center;
+    }
+    .testi_left p{
+        display: none;
+    }
+    .testi_text{
+        display: block;
+        text-align: center;
+        margin-left: 0px;
+    }
+    .testi_text p{
+        width: 100%;
+        font-size: 14px;
+        margin-top: 95px;
+    }
+    .testi_text h4{
+        width: 100%;
+    }
+    .testi_text h5{
+        width: 100%;
+    }
+    .testimonial{
+        padding: 12px;
+    }
+    .testi_img img{
+        width: 80px;
+        height: 80px;
+        top: 5px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .nicescroll{
+        height: 340px;
+    }
+    /*=========================================
+                TESTIMONIAL PART END
+    ==========================================*/
+    
+    
+    /*=========================================
+                CONTACT PART START
+    ==========================================*/
+    #contact_part{
+        padding: 50px 0px;
+    }
+    .contact_heading h2{
+        font-size: 24px;
+        margin-bottom: 25px;
+    }
+    .contact_heading h2:after{
+        width: 50px;
+    }
+    .contact_heading p{
+        display: none;
+    }
+    .details i{
+        font-size: 28px;
+        left: 50%;
+        top: 20px;
+        transform: translateX(-50%);
+    }
+    .details p{
+        font-size: 14px;
+        margin-left: 0px;
+    }
+    .contact_text{
+        text-align: center;
+    }
+    .contact_text h3{
+        font-size: 22px;
+        margin: 35px 0px 15px;
+    }
+    .contact_text p{
+        display: none;
+    }
+    .contact_text input{
+        margin: 0px 0px 12px 0px;
+        width: 100%;
+    }
+    .contact_text textarea{
+        width: 100%;
+    }
+    .contact_text button{
+        padding: 12px 25px;
+        font-size: 14px;
+        margin: 25px 0px 0px 0px;
+    }
+    .details::after{
+        left: 50%;
+        transform: translateX(-50%);
+        width: 180px;
+    }
+    .details{
+        padding: 56px 10px 28px;
+        text-align: center;
+    }
+    /*=========================================
+                CONTACT PART END
+    ==========================================*/
+    
+    
+    /*=========================================
+                FOOTER PART START
+    ==========================================*/
+    #footer_part{
+        padding-top: 25px;
+    }
+    .footer_logo{
+        text-align: center;
+    }
+    .footer_logo img{
+        width: 130px;
+        height: auto;
+    }
+    .footer_icon ul li a i{
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+    }
+    .footer_icon ul{
+        float: none;
+    }
+    .footer_icon ul li{
+        margin: 20px 6px 0px;
+    }
+    .footer_icon{
+        text-align: center;
+    }
+    .footer_link{
+        text-align: center;
+    }
+    .footer_link h3:after{
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .footer_link h3{
+        font-size: 20px;
+        margin-top: 30px;
+    }
+    .newsletter{
+        margin: 0px 0px 30px 0px;
+    }
+    .newsletter input{
+        width: 80%;
+    }
+    .footer_link ul{
+        margin-bottom: 0px !important;
+    }
+    /*=========================================
+                FOOTER PART END
+    ==========================================*/
+    
+    
+    /*=========================================
+    PRELOADER AND BACK TO TOP BUTTON PART START
+    ==========================================*/
+    .top_btn i{
+        font-size: 22px;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+    }
+    .preloader_content{
+        width: 200PX;
+        height: 200px;
+    }
+    .preloader h1{
+        font-size: 100px;
+        line-height: 200px;
+    }
+    /*=========================================
+     PRELOADER AND BACK TO TOP BUTTON PART END
+    ==========================================*/
+    
+}
+
+
+
+
+
+@media (min-width: 576px) and (max-width: 767px) {
+    
+    /*===================================================================[576px to 767px]=============================
+                MENU PART START
+    ==========================================*/
+    .navbar{
+        padding: 8px 15px !important;
+    }
+    .navbar a img{
+        width: 150px;
+        height: auto;
+    }
+    .navbar button i{
+        color: #ff7f00;
+    }
+    .navbar button:focus{
+        outline: 0px !important;
+    }
+    .navbar-collapse{
+        text-align: center;
+        background: #ff7f00;
+    }
+    .navbar ul li a::after{
+        display: none;
+    }
+    .navbar ul{
+        padding: 15px 0px;
+    }
+    .navbar ul li a{
+        color: #fff;
+        font-size: 14px;
+    }
+   /*=========================================
+                MENU PART START
+    ==========================================*/
+    
+    
+    /*=========================================
+                 BANNER PART START
+    ==========================================*/
+    .banner_text{
+        text-align: center;
+    }
+    .banner_text h1{
+        font-size: 58px;
+        text-align: center;
+        line-height: 58px;
+        padding-top: 30px;
+    }
+    .banner_img img{
+        display: none;
+    }
+    .banner_text p{
+        font-size: 14px;
+        text-align: center;
+        width: 100%;
+    }
+    .banner_contact_btn{
+        text-align: center;
+        font-size: 16px;
+        padding: 12px 25px;
+        margin-top: 20px;
+        margin-bottom: 70px;
+    }
+    .banner_video_btn{
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        font-size: 16px;
+    }
+    .dandik,
+    .bamdik{
+        display: none !important;
+    }
+    .banner3_heading{
+        padding-top: 30px !important;
+    }
+    #banner_part ul{
+        bottom: 10px;
+    }
+    /*=========================================
+                 BANNER PART END
+    ==========================================*/
+    
+    
+    /*=========================================
+                 PARTNER PART START
+    ==========================================*/
+    .partner img{
+        width: 150px !important;
+        height: auto;
+    }
+    /*=========================================
+                 PARTNER PART END
+    ==========================================*/
+    
+    
+    /*=========================================
+                 ABOUT PART START
+    ==========================================*/
+    #about_part{
+        padding-top: 35px;
+    }
+    .about_heading h3{
+        font-size: 26px;
+        margin-bottom: 25px;
+    }
+    .about_heading h3:after{
+        width: 50px;
+    }
+    .about_heading p{
+        display: none;
+    }
+    .about_text{
+        text-align: center;
+        padding-left: 0px;
+    }
+    .about_text ul{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .about_text h3{
+        font-size: 20px;
+        margin-top: 25px;
+        text-align: center;
+    }
+    .about_text p{
+        font-size: 14px;
+    }
+    .about_2nd_p{
+        display: none;
+    }
+    .about_text ul li{
+        margin-right: 15px;
+        float: none;
+        display: inherit;
+    }
+    .about_text ul li a i{
+        font-size: 16px;
+    }
+    .about_1st_p{
+        margin-bottom: 15px;
+    }
+    .about_2nd_part{
+        margin-top: 15px;
+    }
+    .about2_content{
+        text-align: center;
+    }
+    .about2_text1 h3:after,
+    .about2_text2 h3:after{
+        display: none;
+    }
+    .about2_img{
+        display: none;
+    }
+    .about2_text1 p,
+    .about2_text2 p{
+        font-size: 14px;
+    }
+    .about2_content a{
+        font-size: 16px;
+        padding: 12px 25px;
+        margin-top: 15px;
+    }
+    .about2_text1 h3{
+        font-size: 20px;
+    }
+    .about2_text2 h3{
+        font-size: 20px;
+    }
+    /*=========================================
+                 ABOUT PART END
+    ==========================================*/
+    
+    
+    /*=========================================
+                 SERVICE PART START
+    ==========================================*/
+    #service_part{
+        padding-top: 70px;
+    }
+    .service_heading h3{
+        font-size: 26px;
+        margin-bottom: 25px;
+    }
+    .service_heading h3::after{
+        width: 50px;
+    }
+    .service_heading p{
+        display: none;
+    }
+    .service_text{
+        margin-bottom: 30px;
+    }
+    .service_text h3{
+        font-size: 18px;
+    }
+    .service_text p{
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+    .service_text i{
+        font-size: 20px;
+        width: 55px;
+        height: 55px;
+        line-height: 55px;
+    }
+    .service_1st_part{
+        margin-bottom: 0px;
+    }
+    .extra_service_web{
+        display: none;
+    }
+    .extra_service_respons{
+        display: block;
+    }
+    /*=========================================
+                 SERVICE PART END
+    ==========================================*/
+    
+    
+    /*=========================================
+               PROTFOLIO PART START
+    ==========================================*/
+    #protfolio_part{
+        padding-top: 35px;
+    }
+    .prot_heading h2{
+        font-size: 26px;
+        margin-bottom: 25px;
+    }
+    .prot_heading h2:after{
+        width: 50px;
+    }
+    .prot_heading p{
+        display: none;
+    }
+    .prot_img h4{
+        font-size: 14px;
+        width: 160px;
+        height: 35px;
+        line-height: 35px;
+    }
+    .prot_box{
+        margin-bottom: 30px;
+    }
+    .prot_overlay_cover{
+        width: 225px;
+    }
+    .prot_1st_part{
+        margin-bottom: 0px;
+    }
+    .extra_prot_web{
+        display: none;
+    }
+    .extra_prot_respons{
+        display: block;
+    }
+    /*=========================================
+               PROTFOLIO PART END
+    ==========================================*/
+    
+    
+    /*=========================================
+               PRICE PART START
+    ==========================================*/
+    #price_part{
+        padding-top: 40px;
+    }
+    .price_heading h2{
+        font-size: 26px;
+        margin-bottom: 25px;
+    }
+    .price_heading h2:after{
+        width: 50px;
+    }
+    .price_heading p{
+        display: none;
+    }
+    .price i{
+        font-size: 28px;
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+    }
+    .price h3{
+        font-size: 20px;
+    }
+    .price .price_rate{
+        font-size: 34px;
+    }
+    .price .price_time{
+        font-size: 14px;
+    }
+    .price ul li{
+        font-size: 16px;
+    }
+    .price a{
+        font-size: 16px;
+        width: 160px;
+        padding: 12px 0px;
+    }
+    .price{
+        margin-bottom: 30px;
+    }
+    /*=========================================
+               PRICE PART END
+    ==========================================*/
+    
+    
+    /*=========================================
+                BLOG PART START
+    ==========================================*/
+    #blog_part{
+        padding-top: 35px;
+    }
+    .blog_heading h2{
+        font-size: 26px;
+        margin-bottom: 25px;
+    }
+    .blog_heading h2:after{
+        width: 50px;
+    }
+    .blog_heading p{
+        display: none;
+    }
+    .blog{
+        margin: 0px 15px 0px;
+    }
+    .blog_text h5{
+        font-size: 20px;
+    }
+    .blog_text p{
+        font-size: 14px;
+        margin: 0px 35px 15px 35px;
+    }
+    .blog_text{
+        text-align: center;
+    }
+    .blog_text a i{
+        display: none;
+    }
+    .blog_admin p{
+        font-size: 14px;
+    }
+    .blog_admin i{
+        font-size: 14px;
+    }
+    .blog_slider ul{
+        bottom: -45px;
+    }
+    .blog_parent{
+        text-align: center;
+        padding-right: 48px;
+    }
+    /*=========================================
+                BLOG PART END
+    ==========================================*/
+    
+    
+    /*=========================================
+                MEMBER PART START
+    ==========================================*/
+    .team_heading h2{
+        font-size: 26px;
+        margin-bottom: 25px;
+    }
+    .team_heading h2:after{
+        width: 50px;
+    }
+    .team_heading p{
+        display: none;
+    }
+    .team{
+        margin: 0px 15px;
+    }
+    /*=========================================
+                MEMBER PART END
+    ==========================================*/
+    
+    
+    /*=========================================
+                TESTIMONIAL PART START
+    ==========================================*/
+    #testi_part{
+        padding-top: 50px;
+    }
+    .testi_heading h2{
+        font-size: 26px;
+        margin-bottom: 25px;
+    }
+    .testi_heading h2:after{
+        width: 50px;
+    }
+    .testi_heading p{
+        display: none;
+    }
+    .testi_left h3{
+        font-size: 20px;
+        margin-top: 35px;
+        margin-bottom: 15px;
+    }
+    .testi_left #qoute_left{
+        font-size: 40px;
+        top: -42px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .testi_left{
+        text-align: center;
+    }
+    .testi_left p{
+        display: none;
+    }
+    .testi_text{
+        display: block;
+        text-align: center;
+        margin-left: 0px;
+    }
+    .testi_text p{
+        width: 100%;
+        font-size: 14px;
+        margin-top: 95px;
+    }
+    .testi_text h4{
+        width: 100%;
+    }
+    .testi_text h5{
+        width: 100%;
+    }
+    .testimonial{
+        padding: 15px;
+    }
+    .testi_img img{
+        width: 80px;
+        height: 80px;
+        top: 5px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .nicescroll{
+        height: 300px;
+    }
+    /*=========================================
+                TESTIMONIAL PART END
+    ==========================================*/
+    
+    
+    /*=========================================
+                CONTACT PART START
+    ==========================================*/
+    #contact_part{
+        padding: 50px 0px;
+    }
+    .contact_heading h2{
+        font-size: 26px;
+        margin-bottom: 25px;
+    }
+    .contact_heading h2:after{
+        width: 50px;
+    }
+    .contact_heading p{
+        display: none;
+    }
+    .details i{
+        font-size: 30px;
+        left: 50%;
+        top: 20px;
+        transform: translateX(-50%);
+    }
+    .details p{
+        font-size: 16px;
+        margin-left: 0px;
+    }
+    .contact_text{
+        text-align: center;
+    }
+    .contact_text h3{
+        font-size: 24px;
+        margin: 25px 0px 15px;
+    }
+    .contact_text p{
+        display: none;
+    }
+    .contact_text input{
+        margin: 0px 0px 12px 0px;
+        width: 100%;
+    }
+    .contact_text textarea{
+        width: 100%;
+    }
+    .contact_text button{
+        padding: 12px 25px;
+        font-size: 16px;
+        margin: 25px 0px 0px 0px;
+    }
+    .details::after{
+        left: 50%;
+        transform: translateX(-50%);
+        width: 180px;
+    }
+    .details{
+        padding: 56px 10px 28px;
+        text-align: center;
+    }
+    /*=========================================
+                CONTACT PART END
+    ==========================================*/
+    
+    
+    /*=========================================
+                FOOTER PART START
+    ==========================================*/
+    #footer_part{
+        padding-top: 25px;
+    }
+    #footer_part::after{
+        top: 165px;
+    }
+    .footer_logo{
+        text-align: center;
+    }
+    .footer_logo img{
+        width: 150px;
+        height: auto;
+    }
+    .footer_icon ul li a i{
+        width: 45px;
+        height: 45px;
+        line-height: 45px;
+    }
+    .footer_icon ul{
+        float: none;
+    }
+    .footer_icon ul li{
+        margin: 20px 6px 0px;
+    }
+    .footer_icon{
+        text-align: center;
+    }
+    .footer_link{
+        text-align: center;
+    }
+    .footer_link h3:after{
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .footer_link h3{
+        font-size: 24px;
+        margin-top: 30px;
+    }
+    .newsletter{
+        margin: 0px 0px 30px 0px;
+    }
+    .newsletter input{
+        width: 80%;
+    }
+    .footer_link ul{
+        margin-bottom: 0px !important;
+    }
+    /*=========================================
+                FOOTER PART END
+    ==========================================*/
+    
+    
+    /*=========================================
+    PRELOADER AND BACK TO TOP BUTTON PART START
+    ==========================================*/
+    .top_btn i{
+        font-size: 22px;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+    }
+    .preloader_content{
+        width: 200PX;
+        height: 200px;
+    }
+    .preloader h1{
+        font-size: 100px;
+        line-height: 200px;
+    }
+    /*=========================================
+     PRELOADER AND BACK TO TOP BUTTON PART END
+    ==========================================*/
+    
+}
+
+
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    
+    /*===================================================================[768px to 991px]=============================
+                MENU PART START
+    ==========================================*/
+    .navbar{
+        padding: 8px 15px !important;
+    }
+    .navbar button i{
+        color: #ff7f00;
+    }
+    .navbar button:focus{
+        outline: 0px !important;
+    }
+    .navbar-collapse{
+        background: #ff7f00;
+        text-align: center;
+    }
+    .navbar ul li a::after{
+        display: none;
+    }
+    .navbar ul{
+        padding: 15px 0px;
+    }
+    .navbar ul li a{
+        color: #fff;
+        font-size: 14px;
+    }
+   /*=========================================
+                MENU PART START
+    ==========================================*/
+    
+    
+    /*=========================================
+                 BANNER PART START
+    ==========================================*/
+    .banner_text h1{
+        font-size: 45px;
+        line-height: 50px;
+        padding-top: 30px;
+    }
+    .banner_text p{
+        font-size: 14px;
+        width: 100%;
+    }
+    .banner_contact_btn{
+        font-size: 16px;
+        padding: 12px 25px;
+        margin-top: 20px;
+        margin-bottom: 70px;
+    }
+    .banner_video_btn{
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        font-size: 16px;
+    }
+    .banner_text_btn{
+        display: none;
+    }
+    .dandik,
+    .bamdik{
+        display: none !important;
+    }
+    .banner3_heading{
+        padding-top: 30px !important;
+    }
+    #banner_part ul{
+        bottom: 10px;
+    }
+    /*=========================================
+                 BANNER PART END
+    ==========================================*/
+    
+    
+    /*=========================================
+                 PARTNER PART START
+    ==========================================*/
+    .partner img{
+        width: 150px !important;
+        height: auto;
+    }
+    /*=========================================
+                 PARTNER PART END
+    ==========================================*/
+    
+    
+    /*=========================================
+                 ABOUT PART START
+    ==========================================*/
+    #about_part{
+        padding-top: 35px;
+    }
+    .about_heading h3{
+        font-size: 26px;
+        margin-bottom: 35px;
+    }
+    .about_heading h3:after{
+        width: 50px;
+    }
+    .about_heading p{
+        display: none;
+    }
+    .about_text{
+        padding-left: 0px;
+    }
+    .about_text ul{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .about_text h3{
+        font-size: 20px;
+        margin-top: 0px;
+    }
+    .about_text p{
+        font-size: 14px;
+    }
+    .about_2nd_p{
+        display: none;
+    }
+    .about_text ul li{
+        margin-right: 15px;
+        float: none;
+        display: inherit;
+    }
+    .about_text ul li a i{
+        font-size: 16px;
+    }
+    .about_1st_p{
+        margin-bottom: 15px;
+    }
+    .about_2nd_part{
+        margin-top: 15px;
+    }
+    .about2_text2 h3:after{
+        display: none;
+    }
+   
+    .about2_text1 p,
+    .about2_text2 p{
+        font-size: 14px;
+    }
+    .about2_text2 h3,
+    .about2_text2 p{
+        display: none;
+    }
+    .about2_content a{
+        font-size: 16px;
+        padding: 12px 25px;
+        margin-top: 15px;
+    }
+    .about2_text1 h3{
+        font-size: 20px;
+    }
+    .about2_text2 h3{
+        font-size: 20px;
+    }
+    .about_text ul li a.about_btn{
+        margin-right: 35px;
+        padding-left: 25px;
+    }
+    /*=========================================
+                 ABOUT PART END
+    ==========================================*/
+    
+    
+    /*=========================================
+                 SERVICE PART START
+    ==========================================*/
+    #service_part{
+        padding-top: 70px;
+    }
+    .service_heading h3{
+        font-size: 26px;
+        margin-bottom: 35px;
+    }
+    .service_heading h3::after{
+        width: 50px;
+    }
+    .service_heading p{
+        display: none;
+    }
+    .service_text{
+        margin-bottom: 30px;
+    }
+    .service_text h3{
+        font-size: 18px;
+    }
+    .service_text p{
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+    .service_text i{
+        font-size: 20px;
+        width: 55px;
+        height: 55px;
+        line-height: 55px;
+    }
+    .service_1st_part{
+        margin-bottom: 0px;
+    }
+    .extra_service_web{
+        display: none;
+    }
+    .extra_service_respons{
+        display: block;
+    }
+    /*=========================================
+                 SERVICE PART END
+    ==========================================*/
+    
+    
+    /*=========================================
+               PROTFOLIO PART START
+    ==========================================*/
+    #protfolio_part{
+        padding-top: 35px;
+    }
+    .prot_heading h2{
+        font-size: 26px;
+        margin-bottom: 35px;
+    }
+    .prot_heading h2:after{
+        width: 50px;
+    }
+    .prot_heading p{
+        display: none;
+    }
+    .prot_img h4{
+        font-size: 14px;
+        width: 160px;
+        height: 35px;
+        line-height: 35px;
+    }
+    .prot_box{
+        margin-bottom: 30px;
+    }
+    .prot_1st_part{
+        margin-bottom: 0px;
+    }
+    .extra_prot_web{
+        display: none;
+    }
+    .extra_prot_respons{
+        display: block;
+    }
+    /*=========================================
+               PROTFOLIO PART END
+    ==========================================*/
+    
+    
+    /*=========================================
+               PRICE PART START
+    ==========================================*/
+    #price_part{
+        padding-top: 40px;
+    }
+    .price_heading h2{
+        font-size: 26px;
+        margin-bottom: 35px;
+    }
+    .price_heading h2:after{
+        width: 50px;
+    }
+    .price_heading p{
+        display: none;
+    }
+    .price i{
+        font-size: 28px;
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+    }
+    .price h3{
+        font-size: 20px;
+    }
+    .price .price_rate{
+        font-size: 34px;
+    }
+    .price .price_time{
+        font-size: 14px;
+    }
+    .price ul li{
+        font-size: 14px;
+    }
+    .price a{
+        font-size: 16px;
+        width: 160px;
+        padding: 12px 0px;
+    }
+    .price{
+        margin-bottom: 30px;
+    }
+    /*=========================================
+               PRICE PART END
+    ==========================================*/
+    
+    
+    /*=========================================
+                BLOG PART START
+    ==========================================*/
+    #blog_part{
+        padding-top: 35px;
+    }
+    .blog_heading h2{
+        font-size: 26px;
+        margin-bottom: 35px;
+    }
+    .blog_heading h2:after{
+        width: 50px;
+    }
+    .blog_heading p{
+        display: none;
+    }
+    .blog{
+        margin: 0px 15px 0px;
+    }
+    .blog_text h5{
+        font-size: 20px;
+    }
+    .blog_text p{
+        font-size: 14px;
+        margin: 0px 0px 15px 0px;
+    }
+    .blog_admin p{
+        font-size: 14px;
+    }
+    .blog_admin i{
+        font-size: 14px;
+    }
+    .blog_slider ul{
+        bottom: -45px;
+    }
+    .blog_parent{
+        text-align: center;
+        padding-right: 48px;
+    }
+    /*=========================================
+                BLOG PART END
+    ==========================================*/
+    
+    
+    /*=========================================
+                MEMBER PART START
+    ==========================================*/
+    .team_heading h2{
+        font-size: 26px;
+        margin-bottom: 35px;
+    }
+    .team_heading h2:after{
+        width: 50px;
+    }
+    .team_heading p{
+        display: none;
+    }
+    .team{
+        margin: 0px 15px;
+    }
+    /*=========================================
+                MEMBER PART END
+    ==========================================*/
+    
+    
+    /*=========================================
+                TESTIMONIAL PART START
+    ==========================================*/
+    #testi_part{
+        padding-top: 50px;
+    }
+    .testi_heading h2{
+        font-size: 26px;
+        margin-bottom: 25px;
+    }
+    .testi_heading h2:after{
+        width: 50px;
+    }
+    .testi_heading p{
+        display: none;
+    }
+    .testi_left h3{
+        font-size: 18px;
+        margin-top: 75px;
+        margin-bottom: 15px;
+    }
+    .testi_left #qoute_left{
+        font-size: 45px;
+        top: -50px;
+    }
+    .testi_text{
+        display: block;
+        text-align: center;
+        margin-left: 0px;
+    }
+    .testi_left p span{
+        display: none;
+    }
+    .testi_left p{
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .testi_text p{
+        width: 100%;
+        font-size: 14px;
+        margin-top: 95px;
+    }
+    .testi_text h4{
+        width: 100%;
+    }
+    .testi_text h5{
+        width: 100%;
+    }
+    .testimonial{
+        padding: 15px;
+    }
+    .testi_img img{
+        width: 80px;
+        height: 80px;
+        top: 5px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .nicescroll{
+        height: 325px;
+    }
+    /*=========================================
+                TESTIMONIAL PART END
+    ==========================================*/
+    
+    
+    /*=========================================
+                CONTACT PART START
+    ==========================================*/
+    #contact_part{
+        padding: 50px 0px;
+    }
+    .contact_heading h2{
+        font-size: 26px;
+        margin-bottom: 35px;
+    }
+    .contact_heading h2:after{
+        width: 50px;
+    }
+    .contact_heading p{
+        display: none;
+    }
+    .details::after{
+        width: 200px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .details{
+        padding: 38px 10px;
+    }
+    .details i{
+        font-size: 30px;
+    }
+    .details p{
+        font-size: 14px;
+        margin-left: 65px;
+    }
+    .contact_text h3{
+        font-size: 24px;
+        margin: 0px 0px 15px;
+    }
+    .contact_text p{
+        display: none;
+    }
+    .contact_text input{
+        margin: 0px 0px 12px 0px;
+        width: 100%;
+    }
+    .contact_text textarea{
+        width: 100%;
+    }
+    .contact_text button{
+        padding: 12px 25px;
+        font-size: 16px;
+        margin: 28px 0px 0px 0px;
+    }
+    /*=========================================
+                CONTACT PART END
+    ==========================================*/
+    
+    
+    /*=========================================
+                FOOTER PART START
+    ==========================================*/
+    .footer_icon ul li{
+        margin-left: 15px;
+    }
+    .footer_link ul{
+        margin-bottom: 0px;
+    }
+    .footer_link ul li{
+        margin: 10px 0px 0px;
+    }
+    .newsletter input{
+        width: 85%;
+    }
+    .newsletter{
+        margin-bottom: 30px;
+    }
+    /*=========================================
+                FOOTER PART END
+    ==========================================*/
+    
+    
+    /*=========================================
+    PRELOADER AND BACK TO TOP BUTTON PART START
+    ==========================================*/
+    .preloader_content{
+        width: 200PX;
+        height: 200px;
+    }
+    .preloader h1{
+        font-size: 100px;
+        line-height: 200px;
+    }
+    /*=========================================
+     PRELOADER AND BACK TO TOP BUTTON PART END
+    ==========================================*/
+    
+}
+
+
+
+
+
+@media (min-width: 992px) and (max-width: 1199px){
+    
+    /*===================================================================[992px to 1199px]===============================
+          ALL SECTION RESPONSIVE START
+    ==========================================*/
+    .navbar ul li a{
+        font-size: 14px;
+        margin-left: 5px;
+    }
+    .banner_text h1{
+        font-size: 60px;
+        line-height: 65px;
+        padding-top: 110px;
+    }
+    .banner_text p{
+        width: 100%;
+    }
+    .navbar ul li a::after{
+        top: 1px;
+    }
+    .partner img{
+        
+        height: auto;
+    }
+    .about_text h3{
+        font-size: 30px;
+    }
+    .about_1st_p{
+        display: none;
+    }
+    .about_2nd_p{
+        bottom: 45px;
+    }
+    .about2_text2 h3{
+        display: none;
+    }
+    .about2_text2 p{
+        display: none;
+    }
+    .about2_text1 h3{
+        margin-top: 30px;
+    }
+    .blog_text h5{
+        font-size: 18px;
+    }
+    .blog_admin p{
+        font-size: 12px;
+        margin: 0px 0px 0px 35px;
+    }
+    .blog_admin i{
+        font-size: 12px;
+    }
+    .testi_text P{
+        width: 400px;
+    }
+    .details p{
+        margin-left: 70px;
+    }
+    .details::after{
+        width: 200px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .contact_text input{
+        width: 190px;
+    }
+    .contact_text textarea{
+        width: 100%;
+    }
+    .footer_link p{
+        display: none;
+    }
+    .newsletter input{
+        width: 150px;
+    }
+    /*==========================================
+            ALL SECTION RESPONSIVE END
+    ============================================*/
+    
+}
+
+
+/*===================================================[ INNER ABOUT PAGE RESPONSIVE START]==============================*/
+@media (max-width: 575px) {
+    
+    /*----------------------------------
+           INNER ABOUT PAGE START
+    ------------------------------------*/
+    #inner_about_banner{
+        padding: 60px 0px;
+    }
+    .inner_about_heading h2{
+        font-size: 30px;
+    }
+    .inner_about_heading span a{
+        font-size: 14px;
+    }
+    #inner_about{
+        padding: 60px 0px 0px;
+    }
+    .inner_about_text{
+        text-align: center;
+    }
+    .inner_about_text h3{
+        font-size: 22px;
+        margin-top: 25px;
+    }
+    .inner_about_text span{
+        font-size: 14px;
+    }
+    .inner_about_ghape3{
+        margin-top: 10px;
+    }
+    .in_ab_respons{
+        display: none;
+    }
+    .inner_about_ghape4{
+        margin-top: 45px;
+    }
+    .in_ab_vi_overlay i{
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+        font-size: 16px;
+    }
+    /*----------------------------------
+          INNER ABOUT PAGE PART END
+    ------------------------------------*/
+    
+}
+
+
+
+
+@media (min-width: 576px) and (max-width: 767px) {
+    
+    /*----------------------------------
+           INNER ABOUT PAGE START
+    ------------------------------------*/
+    #inner_about_banner{
+        padding: 60px 0px;
+    }
+    .inner_about_heading h2{
+        font-size: 30px;
+    }
+    .inner_about_heading span a{
+        font-size: 14px;
+    }
+    #inner_about{
+        padding: 60px 0px 0px;
+    }
+    .inner_about_text{
+        text-align: center;
+    }
+    .inner_about_text h3{
+        font-size: 22px;
+        margin-top: 25px;
+    }
+    .inner_about_text span{
+        font-size: 14px;
+    }
+    .inner_about_ghape3{
+        margin-top: 10px;
+    }
+    .in_ab_respons{
+        display: none;
+    }
+    .inner_about_ghape4{
+        margin-top: 45px;
+    }
+    .in_ab_vi_overlay i{
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+        font-size: 16px;
+    }
+    /*----------------------------------
+          INNER ABOUT PAGE PART END
+    ------------------------------------*/
+    
+}
+
+
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    
+    /*----------------------------------
+           INNER ABOUT PAGE START
+    ------------------------------------*/
+    #inner_about_banner{
+        padding: 60px 0px;
+    }
+    .inner_about_heading h2{
+        font-size: 30px;
+    }
+    .inner_about_heading span a{
+        font-size: 14px;
+    }
+    #inner_about{
+        padding: 60px 0px 0px;
+    }
+    .inner_about_text h3{
+        font-size: 22px;
+        margin-top: 25px;
+    }
+    .inner_about_text span{
+        font-size: 14px;
+    }
+    .inner_about_ghape3{
+        margin-top: 10px;
+    }
+    .in_ab_respons{
+        display: none;
+    }
+    .inner_about_ghape4{
+        margin-top: 45px;
+    }
+    /*----------------------------------
+          INNER ABOUT PAGE PART END
+    ------------------------------------*/
+    
+}
+/*===================================================[ INNER ABOUT PAGE RESPONSIVE END]==============================*/
+
+
+
+
+
+
+/*===================================================[ INNER PROTFOLIO PAGE RESPONSIVE START]==========================*/
+@media (max-width: 575px) {
+    
+    #inner_prot_part{
+        padding: 0px 0px 0px;
+    }
+    .inner_prot_text h3{
+        font-size: 17px;
+    }
+    .inner_prot_text{
+        text-align: center;
+        margin-top: 45px;
+    }
+    .inner_prot_text p{
+        font-size: 14px;
+    }
+    .inner_prot_ghape{
+        margin-bottom: 0px;
+    }
+}
+
+
+@media (min-width: 576px) and (max-width: 767px) {
+    
+    #inner_prot_part{
+        padding: 0px 0px 0px;
+    }
+    .inner_prot_text h3{
+        font-size: 20px;
+    }
+    .inner_prot_text{
+        text-align: center;
+        margin-top: 45px;
+    }
+    .inner_prot_text p{
+        font-size: 14px;
+    }
+    .inner_prot_ghape{
+        margin-bottom: 0px;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    
+    #inner_prot_part{
+        padding: 0px 0px 0px;
+    }
+    .inner_prot_text h3{
+        font-size: 22px;
+    }
+    .inner_prot_text{
+        text-align: center;
+        margin-top: 45px;
+    }
+    .inner_prot_text p{
+        font-size: 14px;
+    }
+    .inner_prot_ghape{
+        margin-bottom: 0px;
+    }
+}
+/*===================================================[ INNER PROTFOLIO PAGE RESPONSIVE END]============================*/
+
+
+
+
+
+/*===================================================[ INNER BLOG PAGE RESPONSIVE START]============================*/
+@media (max-width: 575px) {
+    
+    #b_details_part{
+        padding: 50px 0px 30px;
+    }
+    .b_details_img{
+        width: 100%;
+        height: auto;
+    }
+    .b_details_img img{
+        width: 100%;
+        height: auto;
+    }
+    .b_details_head h4{
+        text-align: center;
+        font-size: 18px;
+    }
+    .b5_round{
+        display: inherit;
+        padding-top: 0px;
+        text-align: center;
+    }
+    .b5_round img{
+        width: 60px;
+        height: 60px;
+        margin-top: 10px;
+    }
+    .b5_round p{
+        margin: 8px 0px 0px 15px;
+    }
+    .b5_social{
+        text-align: center;
+        margin-top: 15px;
+    }
+    .b5_social ul li{
+        font-size: 12px;
+    }
+    .pl-0{
+        padding-left: 15px !important;
+    }
+    .b_details_text{
+        text-align: center;
+    }
+    .b_details_text p{
+        font-size: 14px;
+        line-height: 24px;
+        margin-top: 0px;
+    }
+    .b_video_text p{
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+    }
+    .b5_tag{
+        display: inherit;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .b5_tag ul li{
+        margin: 8px 0px;
+    }
+    .b5_tag ul li a{
+        margin: 5px 0px;
+    }
+    .b_details_share{
+        display: inherit;
+        margin-top: 0px;
+        text-align: center;
+    }
+    .in_b2_main{
+        text-align: center;
+        margin-top: 25px;
+    }
+    .in_b2_search input{
+        float: inherit;
+        width: 250px;
+    }
+    .in_b2_search button{
+        float: inherit;
+    }
+    .in_b2_key h4{
+        padding: 25px 0px 0px 0px;
+    }
+    .in_b2_cate{
+        padding: 5px 0px;
+    }
+    .in_b2_mixbtn{
+        text-align: center;
+    }
+    .in_b2_mixbtn button{
+        margin: 20px 5px 0px 5px;
+    }
+    .in_b2_mixtext ul li{
+        margin: 0px;
+    }
+    .in_b2_video img{
+        width: 100%;
+        height: auto;
+    }
+    .in_b2_video{
+        margin-top: 0px;
+    }
+    #b4_previous{
+        display: none;
+    }
+    #b4_comment_head{
+        display: none;
+    }
+    .b4_comment_main{
+        display: inherit;
+        text-align: center;
+    }
+    .b4_comment_text{
+        margin: 0px;
+    }
+    .b4_comment_text h4{
+        margin: 10px 0px 0px 0px;
+        display: block;
+    }
+    .b4_comment_text p{
+        margin-bottom: 0px !important;
+    }
+    .mahmud{
+        margin: 20px 0px 0px 0px;
+    }
+    .b4_comment_text h5{
+        margin: 0px;
+        display: block;
+    }
+    #b4_comment{
+        padding: 0px;
+        border-bottom: 0px;
+    }
+    .b4_input{
+        margin-left: 0px;
+    }
+    .b4_leave input{
+        width: 100%;
+        margin: 5px 0px;
+    }
+    .b4_leave{
+        margin-top: 15px;
+    }
+    .b4_leave button{
+        font-size: 16px;
+    }
+}
+
+
+
+@media (min-width: 576px) and (max-width: 767px) {
+    
+    #b_details_part{
+        padding: 50px 0px 30px;
+    }
+    .b_details_img{
+        width: 100%;
+        height: auto;
+    }
+    .b_details_img img{
+        width: 100%;
+        height: auto;
+    }
+    .b_details_head h4{
+        text-align: center;
+        font-size: 18px;
+    }
+    .b5_round{
+        display: inherit;
+        padding-top: 0px;
+        text-align: center;
+    }
+    .b5_round img{
+        width: 60px;
+        height: 60px;
+        margin-top: 10px;
+    }
+    .b5_round p{
+        margin: 8px 0px 0px 15px;
+    }
+    .b5_social{
+        text-align: center;
+        margin-top: 15px;
+    }
+    .b5_social ul li{
+        font-size: 12px;
+    }
+    .pl-0{
+        padding-left: 15px !important;
+    }
+    .b_details_text{
+        text-align: center;
+    }
+    .b_details_text p{
+        font-size: 14px;
+        line-height: 24px;
+        margin-top: 0px;
+    }
+    .b_video_text p{
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+    }
+    .b5_tag{
+        display: inherit;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .b5_tag ul li{
+        margin: 8px 0px;
+    }
+    .b5_tag ul li a{
+        margin: 5px 3px;
+        font-size: 12px
+    }
+    .b_details_share{
+        display: inherit;
+        margin-top: 0px;
+        text-align: center;
+    }
+    .in_b2_main{
+        text-align: center;
+        margin-top: 25px;
+    }
+    .in_b2_search input{
+        float: inherit;
+        width: 90%;
+    }
+    .in_b2_search button{
+        float: inherit;
+    }
+    .in_b2_key h4{
+        padding: 25px 0px 0px 0px;
+    }
+    .in_b2_cate{
+        padding: 5px 0px;
+    }
+    .in_b2_mixbtn{
+        text-align: center;
+    }
+    .in_b2_mixbtn button{
+        margin: 20px 5px 0px 5px;
+    }
+    .in_b2_video img{
+        width: 100%;
+        height: 100%;
+    }
+    .in_b2_video{
+        margin-top: 0px;
+    }
+    .b_post_round p{
+        font-size: 14px;
+        margin: 7px 0px 0px 8px;
+    }
+    .b_post_round{
+        margin: 25px 0px 25px 0px;
+    }
+    #b4_previous{
+        padding: 25px 0px;
+    }
+    .b4_post2{
+        margin-top: 45px;
+    }
+    .b_post_round2 p{
+        margin: 7px 8px 0px 0px;
+    }
+    .post_content2 a{
+        margin: 25px 0px 0px 90px;
+    }
+    .b4_top h4{
+        text-align: center;
+        font-size: 20px;
+    }
+    .b4_input{
+        margin-left: 0px;
+    }
+    .b4_leave input{
+        width: 100%;
+        margin: 5px 0px;
+    }
+    .b4_leave{
+        margin-top: 15px;
+    }
+    .b4_leave button{
+        font-size: 16px;
+    }
+    
+}
+
+
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    
+    .in_b2_video{
+        height: auto;
+    }
+    #b4_previous{
+        padding: 50px 0px;
+    }
+    .b4_post{
+        margin-bottom: 50px;
+    }
+    .mahmud{
+        margin: 28px 0px 28px 0px;
+    }
+    .in_b2_search input{
+        width: 94%;
+    }
+    .in_b2_key h4{
+        padding: 60px 0px 10px 0px;
+    }
+    .in_b2_search{
+        margin-top: 25px;
+    }
+    .b4_input{
+        margin-left: 0px;
+    }
+    .b4_leave input{
+        width: 100%;
+        margin: 5px 0px;
+    }
+    .b4_leave{
+        margin-top: 15px;
+    }
+    .b4_leave button{
+        font-size: 16px;
+    }
+    
+}
+
+
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    
+    #b_details_part{
+        padding: 70px 0px 15px;
+    }
+    .in_b2_search input{
+        width: 85%;
+    }
+    .in_b2_mixbtn button{
+        margin: 40px 15px 0px 0px;
+    }
+    .b5_round img{
+        width: 60px;
+        height: 60px;
+        margin-top: 16px;
+    }
+    .in_b2_mixtext ul li{
+        margin: 0px;
+    }
+    .b5_tag ul li a{
+        margin-left: 5px;
+    }
+    .post_img img{
+        width: 200px;
+    }
+    .post_img2 img{
+        width: 200px;
+    }
+    .b_post_round{
+        margin: 10px 0px 10px 0px;
+    }
+    .b_post_round2{
+        margin: 10px 0px 0px 0px;
+    }
+    .post_content2 a{
+        margin: 10px 0px 0px 90px;
+    }
+    .b4_leave input{
+        width: 220px;
+    }
+    #contact_part{
+        padding: 60px 0px;
+    }
+}
+/*===================================================[ INNER BLOG PAGE RESPONSIVE END]============================*/
+
+
+
+
+/*===================================================[ INNER PRICE PAGE RESPONSIVE START]============================*/
+@media (max-width: 575px){
+    .inner_price_margin{
+        margin-bottom: 0px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px){
+    .inner_price_margin{
+        margin-bottom: 0px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    .inner_price_margin{
+        margin-bottom: 0px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+    .inner_price_margin{
+        margin-bottom: 0px;
+    }
+}
+/*===================================================[ INNER PRICE PAGE RESPONSIVE END]============================*/
+
+
+
+
+
+
+/*===================================================[ INNER ERROR PAGE RESPONSIVE START]============================*/
+@media (max-width: 575px) {
+    
+    .error_content{
+        width: 100%;
+    }
+    .error_content h2{
+        font-size: 90px;
+    }
+    .error_content h3{
+        font-size: 18px;
+    }
+    .error_content p{
+        font-size: 14px;
+        width: 100%;
+    }
+    .error_home_btn a{
+        font-size: 16px;
+    }
+}
+
+
+
+@media (min-width: 576px) and (max-width: 767px) {
+    
+    .error_content{
+        width: 100%;
+    }
+    .error_content h2{
+        font-size: 90px;
+    }
+    .error_content h3{
+        font-size: 18px;
+    }
+    .error_content p{
+        font-size: 14px;
+    }
+    .error_home_btn a{
+        font-size: 16px;
+    }
+}
+/*===================================================[ INNER ERROR PAGE RESPONSIVE END]============================*/
+
+
+
+
+
+
+
